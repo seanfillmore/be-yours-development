@@ -2,33 +2,17 @@
 {
   "name": "Main Product Buy Box",
   "tag": "section",
-  "class": "section section-buy-box",
+  "class": "section",
   "settings": [],
   "presets": [
     {
-      "name": "Main Product Buy Box"
+      "name": "Main Product Buy Box",
+      "category": "Product"
     }
   ]
 }
 {% endschema %}
 
 <div class="buy-box">
-  <form id="buy-box-form">
-    <div class="purchase-type">
-      <label><input type="radio" name="purchase_type" value="subscription" checked> Subscribe & Save</label>
-      <label><input type="radio" name="purchase_type" value="onetime"> One Time</label>
-    </div>
-    <div class="quantity-selector">
-      <button type="button" class="qty-btn" data-qty="1">1</button>
-      <button type="button" class="qty-btn" data-qty="2">2</button>
-      <button type="button" class="qty-btn" data-qty="3">3</button>
-    </div>
-    <div id="price-display">
-      <span class="original-price">$31.99</span> <span class="sale-price">$26.99</span>
-    </div>
-    <button type="submit" class="add-to-cart-btn">Add to Cart</button>
-    <div class="trust-message">Customer Favorite! Less than 3% return this product.</div>
-  </form>
+  <p>This is your custom buy box placeholder.</p>
 </div>
-
-<script src="{{ 'product-buy-box.js' | asset_url }}" defer></script>
