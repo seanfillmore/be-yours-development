@@ -1,4 +1,17 @@
-{% comment %} Custom Buy Box Section for Be Yours Theme {% endcomment %}
+{% schema %}
+{
+  "name": "Main Product Buy Box",
+  "tag": "section",
+  "class": "section section-buy-box",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Main Product Buy Box"
+    }
+  ]
+}
+{% endschema %}
+
 <div class="buy-box">
   <form id="buy-box-form">
     <div class="purchase-type">
@@ -17,4 +30,5 @@
     <div class="trust-message">Customer Favorite! Less than 3% return this product.</div>
   </form>
 </div>
+
 <script src="{{ 'product-buy-box.js' | asset_url }}" defer></script>
